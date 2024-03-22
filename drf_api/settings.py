@@ -47,8 +47,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+
     'cloudinary_storage',
-    'django.contrib.staticfiles',
+    
     'cloudinary',
 ]
 
@@ -62,7 +65,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'PROJ_NAME.urls'
+ROOT_URLCONF = 'drf_api.urls'
 
 TEMPLATES = [
     {
